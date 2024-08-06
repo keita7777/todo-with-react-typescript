@@ -1,0 +1,25 @@
+.todo_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  gap: 10px;
+}
+input,
+button {
+  height: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  background-color: aliceblue;
+}
+select {
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}

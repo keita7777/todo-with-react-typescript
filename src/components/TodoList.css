@@ -1,0 +1,29 @@
+.todo-list {
+  width: 100%;
+}
+
+.todo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.status {
+  background-color: rgb(225, 167, 123);
+  padding: 10px;
+  width: 50px;
+  height: 100%;
+  font-size: 10px;
+}
+.title {
+  flex: 1;
+  text-align: left;
+  background-color: #fff;
+  padding: 10px;
+}
